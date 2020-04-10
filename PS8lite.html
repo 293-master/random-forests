@@ -1699,17 +1699,6 @@ div.tocify {
 <div id="fit-a-random-forest-model" class="section level1">
 <h1><span class="header-section-number">2</span> Fit a Random Forest model</h1>
 <p>Fit one Random Forest model <code>model_rf</code> using any approach you want.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1">model_rf &lt;-<span class="st"> </span><span class="kw">randomForest</span>(</a>
-<a class="sourceLine" id="cb7-2" data-line-number="2">  <span class="co"># Model formula</span></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3">  <span class="dt">form =</span> model_formula,</a>
-<a class="sourceLine" id="cb7-4" data-line-number="4">  <span class="co"># Training data</span></a>
-<a class="sourceLine" id="cb7-5" data-line-number="5">  <span class="dt">data =</span> training, </a>
-<a class="sourceLine" id="cb7-6" data-line-number="6">  <span class="co"># At each node of tree, number of features/predictor variables to randomly</span></a>
-<a class="sourceLine" id="cb7-7" data-line-number="7">  <span class="co"># choose from for splitting:</span></a>
-<a class="sourceLine" id="cb7-8" data-line-number="8">  <span class="dt">mtry =</span> <span class="dv">2</span>,</a>
-<a class="sourceLine" id="cb7-9" data-line-number="9">  <span class="co"># Number of bagged (bootstrap aggregated) trees in your forest:</span></a>
-<a class="sourceLine" id="cb7-10" data-line-number="10">  <span class="dt">ntree =</span> <span class="dv">100</span> </a>
-<a class="sourceLine" id="cb7-11" data-line-number="11">)</a></code></pre></div>
 <hr />
 </div>
 <div id="make-predictions-and-submit-to-kaggle" class="section level1">
